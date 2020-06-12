@@ -2,7 +2,7 @@ import React from 'react';
 import './home.css';
 
 const home = {
-    imageSrc: "./",
+    imageSrc: "./logo192.png",
     //imageSrc:  './pictureFrame1.jpg',
     name: 'Kalbert Mata',
     career: 'Web Developer'
