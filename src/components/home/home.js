@@ -1,8 +1,9 @@
 import React from 'react';
 import './home.css';
+import { url } from 'inspector';
 const home = {
 
-    imageSrc ='./pictureFrame.JPG',
+    image = './pictureFrame1.jpg',
     name = 'Kalbert Mata',
     career = 'Web Developer'
 }
@@ -10,10 +11,9 @@ const home = {
 class Home extends React.Component {
     render() {
         return (
-
-            <div className="Business">
+        <div className="Business">
             <div className="image-container">
-              <img src={Home.imageSrc} alt='Kalbert'/>
+              <img src = "./pictureFrame1.jpg" />
             </div>
             <h1>{Home.name}</h1>
             <div className="Business-information">
