@@ -1,9 +1,9 @@
 import React from 'react';
 import './home.css';
+import Menu from '../Menu/menu'
 
 const home = {
-    imageSrc: "./logo192.png",
-    //imageSrc:  './pictureFrame1.jpg',
+    imageSrc: "../pictureFrame.jpg",
     name: 'Kalbert Mata',
     career: 'Web Developer'
 }
@@ -11,18 +11,16 @@ const home = {
 class Home extends React.Component {
     render() {
         return (
-        <div className="Business">
-            <div className="image-container">
-              <img src = "./pictureFrame.jpg" alt='k'/>
+           <div className="Menu">
+                <Menu />
+           <div className="image-container">
               <img src = {home.imageSrc} />
-            </div>
+           </div>
             <h1>{home.name}</h1>
-            <div className="Business-information">
               <div className="Business-address">
                 <h2>{home.career}</h2>
               </div>
             </div>
-          </div>
         );
 
     }

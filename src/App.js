@@ -5,8 +5,10 @@ import Home from './components/Home/home'
 class App extends React.Component {
   render () {
   return (
+    
     <div className="App">
       <Home />
+      
   
     </div>
   );
@@ -14,3 +16,5 @@ class App extends React.Component {
 }
 
 export default App;
+
+ 
