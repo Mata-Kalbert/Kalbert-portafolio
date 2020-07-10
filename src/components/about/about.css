@@ -1,0 +1,46 @@
+.about{
+    background-color: #F5F5F5;
+    margin-top: 0;
+    padding-top: 4rem;
+}
+h1{
+    margin: 0 auto;
+    font-size: 2.8rem;
+    color: #631A1A;
+    padding-bottom: .5rem;
+    
+}
+.about h2 {
+    color: #631A1A;
+    font-size: 1rem;
+    
+}
+.intro p{
+    
+    font-size: 1rem;
+    margin: 2% 15%;
+    color:rgb(31, 30, 30);
+}
+.intro{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.education{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: .4fr .5fr;
+}
+.education ul{
+    text-align: right;
+    list-style-type: none;
+}
+.tool{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: 1.7fr 1fr 1fr 1fr;
+
+}
+.tool ul{
+    list-style-type: none;
+}

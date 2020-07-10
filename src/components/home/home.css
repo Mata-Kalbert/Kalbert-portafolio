@@ -1,7 +1,26 @@
 .Menu{
-background-color: #ffffff;
+background-color: #F5F5F5;
+margin-bottom: 0;
 }
-
+h1{
+    padding-top: 2rem; 
+    font-size: 2rem;
+    color: #631A1A;
+    margin-bottom: 0;
+}
 h2 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    color: rgb(177, 78, 78);
+}
+h3{
+   font-size: 1.3rem;
+   color:#631A1A;
+   text-align: center;
+   margin-bottom: 0;
+   padding: 1% 25%
+}
+.image-container{
+    margin-top: 4%;
+    
+  
 }

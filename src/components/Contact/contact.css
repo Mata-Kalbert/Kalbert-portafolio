@@ -1,0 +1,40 @@
+.contact{
+    padding: 10rem 0 10rem 0;
+}
+
+.div-container{
+    display: grid;
+    grid-template-columns: .8fr .1fr 1fr;
+    background-color: rgb(241, 237, 237);
+    width: 75%;
+    margin: 2% 10% 5% 10%;
+    padding: 5% 1% 5% 5%;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin-left: 20%;
+}
+
+.div-container a{
+    text-decoration: none;
+    color: rgb(22, 19, 19);
+    font-size: 2rem;
+    
+}
+.link{
+    padding-top: 5%;
+}
+.link a:hover{
+    background-color: rgb(177, 78, 78);
+    color: rgb(245, 240, 240);
+    padding: .5rem;
+}
+.linktwo{
+    padding-top: 18%;
+}
+.linktwo a:hover{
+    background-color: rgb(177, 78, 78);
+    color: rgb(245, 240, 240);
+    padding: .3rem;
+}

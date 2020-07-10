@@ -1,13 +1,17 @@
 nav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #DDD8D8;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 nav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
+   font-size: 1.6rem;
+    color: #000000;
     padding: 14px;
     text-decoration: none;
+}
+nav a:hover{
+    background-color: #631A1A;
+    color: #DDD8D8;
 }

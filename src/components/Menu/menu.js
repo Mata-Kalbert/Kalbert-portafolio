@@ -1,18 +1,20 @@
-import React from 'react';
+/*import React from 'react';
+
 import './menu.css';
 
-const pages = ['home', 'Projects', 'About'];
-
-
+const pages = ['home', 'projects', 'about', 'contact'];
 
 class Menu extends React.Component {
   render() {
+    
     const navLinks = pages.map(page => {
       return (
-        
-        <a href={'/' + page}>
+      
+    
+        <a id="navbar" href={'#' + page}>
           {page}
         </a>
+        
       )
     });
 
