@@ -22,8 +22,8 @@ class Contact extends React.Component {
                     <a href="../KalbertMata.pdf">Resume</a>
                 </div>
                 <div className="img-container">
-                    <a href="https://github.com/Mata-Kalbert?tab=repositories"><img src={contact.gitApp}></img></a>
-                    <a href="https://www.linkedin.com/in/kalbert-mata/"><img src= {contact.linkinApp}></img></a> 
+                    <a href="https://github.com/Mata-Kalbert?tab=repositories"><img src={contact.gitApp} alt="github" ></img></a>
+                    <a href="https://www.linkedin.com/in/kalbert-mata/"><img src= {contact.linkinApp} alt="linkin" ></img></a> 
                 </div>
             </div>
         </div>

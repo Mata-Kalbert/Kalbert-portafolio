@@ -14,7 +14,7 @@ class Home extends React.Component {
            <div className="Menu">
                 <Navbar/>
                 <div className="image-container">
-                    <img src = {home.imageSrc} />
+                    <img src = {home.imageSrc} alt="Kalbert Mata" />
                 </div>
             <h1>{home.name}</h1>
               <div className="Business-address">

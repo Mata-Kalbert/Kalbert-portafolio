@@ -12,10 +12,10 @@ class App extends React.Component {
     <div>
     <header ></header>
     <div  className="App">
-    <a id="top"><Home /></a> 
-      <a id="about"> <About /></a>
-      <a id="projects"> <Projects /></a>
-      <a id="contact"><Contact /></a>
+    <a  id="top"><Home /></a> 
+      <a  id="about"> <About /></a>
+      <a  id="projects"> <Projects /></a>
+      <a  id="contact"><Contact /></a>
     </div>
     </div>
     
