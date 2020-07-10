@@ -1,11 +1,10 @@
 
 import React from 'react';
 import './App.css';
-import Home from './components/Home/home'
-import About from './components/About/about'
-import Proyects from './components/Proyects/proyects'
+import Home from './components/Home/home';
+import About from './components/About/about';
+import Proyects from './components/Proyects/proyects';
 import Contact from './components/Contact/contact';
-import Modal from './components/Modal/modal'
 
 class App extends React.Component {
   render () {

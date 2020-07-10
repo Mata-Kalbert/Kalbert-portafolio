@@ -15,7 +15,7 @@ const proyects = {
     tittleFront: 'Front end development process'
 }
 
-class Proyects extends React.Component {
+class Projects extends React.Component {
     render() {
         return (
            <div className="Proyects">
@@ -89,7 +89,7 @@ class Proyects extends React.Component {
     }
 }
 
-export default Proyects;
+export default Projects;
 
 
 
